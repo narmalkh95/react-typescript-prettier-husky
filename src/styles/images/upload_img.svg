@@ -1,0 +1,10 @@
+<svg width="182" height="95" viewBox="0 0 182 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="182" height="95" fill="#E5E5E5"/>
+<rect width="1440" height="900" transform="translate(-629 -402)" fill="white"/>
+<rect x="0.5" y="0.5" width="181" height="94" rx="12.5" fill="white" stroke="black" stroke-dasharray="10 10"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Comfortaa" font-size="14" font-weight="300" letter-spacing="-0.05em"><tspan x="36" y="67.529">Import new data </tspan></text>
+<path d="M106 37V43.6667C106 44.5507 105.649 45.3986 105.024 46.0237C104.399 46.6488 103.551 47 102.667 47H79.3333C78.4493 47 77.6014 46.6488 76.9763 46.0237C76.3512 45.3986 76 44.5507 76 43.6667V37" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M99.3333 25.3333L91 17L82.6666 25.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91 17V37" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-6133" y="-1051" width="10102" height="7798" stroke="#00BF63" stroke-width="20"/>
+</svg>

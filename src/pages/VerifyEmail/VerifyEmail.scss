@@ -1,0 +1,92 @@
+.verify-email-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 700px;
+
+    .verify-email-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 50%;
+        height: 600px;
+
+        border: 2px solid #257aaf;
+        border-radius: 40px;
+
+        background-color: white;
+
+        svg {
+            width: 100px;
+            height: 100px;
+
+            color: #257aaf;
+
+            margin: 25px 0 25px 0;
+        }
+
+        .verify-email-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h2 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 40px;
+
+                margin: 10px 0 10px 0;
+            }
+
+            p {
+                width: 60%;
+
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 40px;
+                text-align: justify;
+
+                margin: 5px 0;
+            }
+
+            .verify-email-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 25%;
+                height: 40px;
+
+                box-sizing: border-box;
+                border-radius: 13px;
+                border: 0.5px solid #257aaf;
+
+                background-color: #257aaf;
+                color: white;
+                font-size: 14px;
+
+                padding: 5px;
+                margin: 15px;
+                margin-left: 0px;
+
+                cursor: pointer;
+            }
+
+            .verify-email-link {
+                text-decoration: underline;
+                cursor: pointer;
+
+                margin-top: 10px;
+            }
+        }
+    }
+}

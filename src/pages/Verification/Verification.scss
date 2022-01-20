@@ -1,0 +1,33 @@
+.verify_container {
+    height: 100vh;
+}
+
+.sub_container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verification_label {
+    font-size: 26px;
+    text-align: center;
+}
+
+.verify_button {
+    width: 117px;
+    height: 40px;
+
+    background: #257AAF;
+    border: 1px solid #257AAF;
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    color: #FFF;
+    font-size: 14px;
+}
+
+.submit-text {
+    cursor: pointer;
+}

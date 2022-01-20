@@ -1,0 +1,248 @@
+.dashboard__import__new__data__btn__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+.dashboard__import__new__data__btn {
+    height: 46px;
+    width: 209.65px;
+    background-color: #8924BF;
+    border-radius: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dashboard__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    span {
+        font-family: Comfortaa;
+        font-size: 28px;
+        letter-spacing: -0.05em;
+        text-align: center;
+    }
+}
+
+.dashboard__first__line {
+    width: 7%;
+}
+
+.dashboard__second__line {
+    width: 73%;
+}
+
+.dashboard__content__wrapper {
+    margin-top: 60px;
+}
+
+.dashboard__row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.file__name__box {
+    width: 182px;
+    height: 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(137, 36, 191, 0.5);
+    border-radius: 13px;
+
+    cursor: pointer;
+    font-family: Comfortaa;
+    font-size: 17px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.dashboard__add__img,
+.dashboard__edit__img,
+.dashboard__delete__img {
+    cursor: pointer;
+}
+
+.dashboard__add__img:hover,
+.dashboard__edit__img:hover,
+.dashboard__delete__img:hover {
+    filter: invert(20%) sepia(86%) saturate(3127%) hue-rotate(272deg) brightness(79%) contrast(96%);
+}
+
+.add__image__dialog__title h2 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+
+    letter-spacing: -0.05em;
+
+    text-align: center;
+}
+
+.selected__images__container {
+    height: 110px;
+    width: 155px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px
+}
+
+.add__image__item__name {
+    height: 24px;
+    width: 120px;
+
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 2px;
+}
+
+.MuiDialogActions-root {
+    flex-direction: column;
+}
+
+.edit__dialog__title h2 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    /* identical to box height */
+}
+
+.edit__dialog__content {
+    margin-top: 30px;
+}
+
+.edit__dialog__content label,
+.edit__dialog__content input {
+    font-family: Comfortaa;
+}
+
+.edit__dialog__content fieldset {
+    border-radius: 11px;
+}
+
+.edit__dialog__button {
+    width: 180px;
+    height: 46px;
+
+    background: #8924BF;
+    border-radius: 13px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.delete__dialog__content__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delete__dialog__content h2 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+
+.delete__dialog__button {
+    width: 180px;
+    height: 46px;
+
+    background: #8924BF;
+    border-radius: 13px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+.cancel__dialog__btn {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+.import__dialog__content__wrapper {
+    height: 100%;
+}
+
+.import__dialog__content {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    text-align: center;
+}

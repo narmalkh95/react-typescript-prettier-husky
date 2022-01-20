@@ -1,0 +1,51 @@
+.anotationToolBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.dropboxDiv {
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px 10px;
+  min-width: 50% !important;
+  min-height: 50px;
+  max-height: 50px;
+  position: relative;
+  top: 0;
+  color: #ccc;
+  font-size: larger;
+  background: rgba(0, 0, 0, 0.1);
+  height: 100px;
+  width: 50% !important;
+  z-index: 999;
+}
+
+.PF {
+  position: fixed;
+  background-color: #333;
+  z-index: 1;
+}
+
+.__markerjs2_ {
+  top: 0!important;
+}
+.DN {
+  display: none !important;
+}
+
+.anoImageBox {
+
+  div {
+      svg {
+        g {
+          rect {
+            stroke: #8924bf;
+          }
+        }
+      }
+  }
+}

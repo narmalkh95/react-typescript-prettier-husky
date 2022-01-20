@@ -1,0 +1,141 @@
+.registration__wrapper {
+    height: 100vh;
+    display: flex;
+
+    background-color: #000;
+}
+
+.signup__left__part {
+    width: 50%;
+}
+
+.welcome__header {
+    font-family: Comfortaa;
+    position: absolute;
+    top: 15%;
+    width: 50%;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.signup__page__image {
+    height: 57%;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+}
+
+.signup__right__part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.signup__fields__wrapper {
+    position: relative;
+    background-color: #fff;
+    height: 84%;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+
+.signup__fields__header {
+    position: absolute;
+    top: 5.6%;
+    width: 100%;
+    font-family: Comfortaa;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+}
+
+.signup__inputs__wrapper {
+    position: absolute;
+    top: 15%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    .pass__eye {
+        cursor: pointer;
+    }
+}
+
+.signup__inputs__wrapper label {
+    font-family: Comfortaa;
+}
+
+.signup__inputs__wrapper fieldset {
+    border-radius: 11px;
+}
+
+.error__message {
+    font-family: Comfortaa;
+    font-size: 12px;
+
+    width: 85%;
+    color: red;
+    margin-top: 3px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.terms__policy__checkbox__wrapper {
+    position: absolute;
+    top: 77%;
+    left: 10%;
+
+    font-family: Comfortaa;
+    font-size: 18px;
+    line-height: 20px;
+
+    .terms__policy__checkbox {
+        position: relative;
+        top: 2px;
+
+        height: 18px;
+        width: 18px;
+    }
+}
+
+.signup__button__wrapper {
+    position: absolute;
+    top: 84%;
+    width: 100%;
+    text-align: center;
+}
+
+.redirect__to__login {
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    text-align: center;
+}
+
+.button__component {
+    width: 110px;
+    height: 40px;
+
+    background: #8924bf;
+    border-radius: 13px;
+
+    font-family: Comfortaa;
+    font-size: 19px;
+    letter-spacing: -0.05em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.with__err__border {
+    border: 1px solid red;
+    padding: 3px;
+}

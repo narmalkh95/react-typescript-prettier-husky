@@ -1,0 +1,62 @@
+.email_container {
+    height: 100vh;
+    .form_wrapper {
+        height: 80%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .heading {
+                width: 244px;
+                height: 40px;
+
+                font-family:  PT Sans, sans-serif;;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 26px;
+                line-height: 40px;
+                /* identical to box height, or 154% */
+
+                text-align: center;
+
+                color: #000000;
+            }
+
+            .email_input {
+                width: 482px;
+                height: 40px;
+
+                border: 0.5px solid lightgray;
+                box-sizing: border-box;
+                border-radius: 30px;
+
+                outline: none;
+
+                padding: 10px;
+                margin: 15px;
+            }
+
+            .submit_button {
+                width: 162px;
+                height: 33px;
+
+                background: #257aaf;
+                border: 1px solid #257aaf;
+                box-sizing: border-box;
+                border-radius: 30px;
+
+                color: white;
+                cursor: pointer;
+
+                margin-top: 10px;
+            }
+        }
+    }
+}

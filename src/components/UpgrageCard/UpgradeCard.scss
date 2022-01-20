@@ -1,0 +1,134 @@
+.upgrade_row {
+    height: 15px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    padding: 7px
+}
+
+.upgrade_item1_container {
+    height: 560px;
+    width: 330px;
+
+    background-color: white;
+    margin: 3px;
+}
+
+.upgrade_item1_header {
+    height: 72px;
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 72px;
+
+    letter-spacing: -0.581818px;
+
+    text-align: center;
+}
+
+.upgrade_item1_text {
+    height: 50px;
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+
+    letter-spacing: -0.581818px;
+
+    text-align: center;
+
+    color: #4D4F5C;
+}
+
+.from {
+    height: 26px;
+    width: 25px;
+    margin-left: 45px;
+
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 52px;
+}
+
+.price_container {
+    text-align: center;
+}
+
+.price {
+    height: 46px;
+    width: 33px;
+    margin-left: 39px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.581818px;
+
+}
+
+.per_month {
+    height: 26px;
+    width: 25px;
+
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 26px;
+
+    letter-spacing: -0.581818px;
+}
+
+.annual_build {
+    height: 26px;
+    width: 74px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+
+    letter-spacing: -0.581818px;
+
+    color: #4D4F5C;
+
+    margin-left: 33px;
+}
+
+.upgrade_item1_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 255px;
+
+}
+
+.upgrade_item1_button {
+    height: 50px;
+    width: 250px;
+
+    background: #FE4D61;
+    border: 0.3px solid #FE4D61;
+    border-radius: 4px;
+
+    color: white;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 16px;
+
+    letter-spacing: -0.581818px;
+
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: 0px 0px 90px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}

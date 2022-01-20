@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  /* font-family: "bahnschrift";
+  src: local("bahnschrift"), url("./styles/fonts/BAHNSCHRIFT1.TTF") format("truetype");
+  font-weight: bold; */
+
+  font-family: 'PT Sans';
+  src: local("PT Sans"), url("./styles/fonts/PT_Sans/PTSans-Regular.ttf") format("truetype");
+
+  font-family: 'Comfortaa';
+  src: local("Comfortaa"), url("./styles/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
 }

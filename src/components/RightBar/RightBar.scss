@@ -1,0 +1,102 @@
+.right_bar_container {
+  width: 25%;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.paper_inner_div {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.not_available {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  position: relative;
+  top: 10%;
+}
+
+.notes_list {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.text_part {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.text_part {
+  svg:hover {
+    fill: #8924bf;
+  }
+}
+
+.note_part {
+  margin-left: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.counter_part {
+  margin-right: 10px;
+
+  font-size: 14px;
+}
+
+.fourth_text_part {
+  margin-left: 5px;
+
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single_annotation_btn_container {
+  position: absolute;
+  bottom: 11%;
+
+  .single_annotation_btn_border {
+    height: 40px;
+    width: 192px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+
+    .single_annotation_btn {
+      width: 208px;
+      height: 33px;
+
+      box-sizing: border-box;
+      border-radius: 13px;
+      border: 1px solid #8924bf;
+      background: white;
+      color: #8924bf;
+      cursor: pointer;
+    }
+  }
+}

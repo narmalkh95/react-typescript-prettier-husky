@@ -1,0 +1,159 @@
+.registration_container {
+    height: 100vh;
+}
+
+.form_wrapper {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    width: 244px;
+    height: 40px;
+
+    font-family: PT Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.name_input,
+.surname_input,
+.email_input {
+    width: 482px;
+    height: 40px;
+
+    border: 0.5px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    outline: none;
+
+    padding: 10px;
+    margin: 15px;
+}
+
+.error_message {
+    width: 482px;
+    color: red;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    text-align: center;
+}
+
+.submit_button {
+    width: 162px;
+    height: 33px;
+
+    background: #257aaf;
+    border: 1px solid #257aaf;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    color: white;
+    cursor: pointer;
+}
+
+.pass_wrapper {
+    display: flex;
+}
+
+.new_password_input {
+    width: 442px;
+    height: 40px;
+
+    border: 0.5px solid lightgray;
+    border-right: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    outline: none;
+
+    padding: 10px;
+    margin: 15px;
+    margin-right: 0px;
+}
+
+.pass_button {
+    width: 40px;
+    height: 40px;
+
+    border: 0.5px solid lightgray;
+    border-left: none;
+
+    box-sizing: border-box;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+
+    outline: none;
+    background-color: white;
+
+    padding: 5px;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.accept-policy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 21px 0 10px 15px;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // width: 474px;
+
+        // margin: 21px 0 0 15px;
+
+        .policy-checkbox {
+            margin-right: 5px;
+        }
+
+        .policy-container {
+            line-height: 1.6;
+            text-align: center;
+
+            .terms {
+                text-decoration: underline;
+                cursor: pointer;
+
+                margin-right: 5px;
+                margin-left: 5px;
+
+                color: #257aaf;
+            }
+
+            .policy {
+                text-decoration: underline;
+                cursor: pointer;
+
+                margin-left: 5px;
+
+                color: #257aaf;
+            }
+        }
+    }
+}

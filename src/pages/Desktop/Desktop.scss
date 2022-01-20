@@ -1,0 +1,88 @@
+.desktop__wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.comp-desktop {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  height: 100vh;
+  width: 100%;
+
+  .user_header_desktop {
+    height: 30%;
+  }
+
+  .main-content-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    width: 95%;
+    height: 75%;
+  }
+
+  .desktop__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 25px;
+
+    span {
+      font-family: Comfortaa;
+      font-size: 28px;
+      letter-spacing: -0.05em;
+      text-align: center;
+    }
+  }
+
+  .radio-buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    margin-top: 10px;
+
+    .button__component {
+      width: 255px;
+      height: 46px;
+      margin: 0 2% 0 7%;
+
+      background: #8924bf;
+      border-radius: 13px;
+
+      font-family: Comfortaa;
+      font-size: 19px;
+      letter-spacing: -0.05em;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .desktop__first__line {
+    width: 7%;
+  }
+
+  .desktop__second__line {
+    width: 73%;
+  }
+
+  .radio-buttons-label {
+    font-size: 14px;
+  }
+
+  .annotation__title {
+    width: 344px;
+    height: 31px;
+  }
+}

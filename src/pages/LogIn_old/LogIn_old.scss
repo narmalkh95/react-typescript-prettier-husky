@@ -1,0 +1,161 @@
+.r_container {
+    height: 100vh;
+}
+
+.form_wrapper {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .pass_wrapper {
+        .pass_button {
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    width: 244px;
+    height: 40px;
+
+    font-family:  PT Sans, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.button-container button {
+    width: 117px;
+    height: 40px;
+
+    border: 1px solid #257aaf;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    /* or 286% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #257aaf;
+    background: #f86878;
+
+    padding: 5px;
+}
+
+.error_message {
+    width: 482px;
+    color: red;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.email_div {
+    width: 482px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.password_div {
+    width: 482px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.password_input, .email_inputs {
+    width: 482px;
+    height: 40px;
+
+    border: 0.5px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    outline: none;
+
+    padding: 10px;
+    margin: 15px;
+}
+
+.login_recaptcha {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.forgot-password {
+    width: 111px;
+    height: 39px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+    /* or 308% */
+
+    color: #257aaf;
+}
+
+.save_button {
+    width: 162px;
+    height: 33px;
+
+    margin-top: 15px;
+
+    background: #257aaf;
+    border: 1px solid #257aaf;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    color: white;
+
+    .submit_text {
+        cursor: pointer;
+    }
+}

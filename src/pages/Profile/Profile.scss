@@ -1,0 +1,67 @@
+.profile_container {
+    height: 100vh;
+}
+
+.profile__wrapper {
+    height: 73%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.show__menu {
+    width: 80%;
+}
+
+.hide__menu {
+    width: 100%;
+}
+
+.profile__heading {
+    position: absolute;
+    top: 9%;
+    font-family: Comfortaa;
+    font-size: 36px;
+    letter-spacing: -0.05em;
+}
+
+.profile__wrapper input {
+    font-family: Comfortaa;
+}
+
+.profile__wrapper label {
+    font-family: Comfortaa;
+}
+
+.profile__wrapper fieldset {
+    border-radius: 11px;
+}
+
+.pass__eye {
+    cursor: pointer;
+
+    div {
+        display: flex;
+    }
+}
+
+.save__button__wrapper {
+    position: absolute;
+    top: 77%;
+    width: 100%;
+    text-align: center;
+}
+
+.cancel__button {
+    font-family: Comfortaa;
+    font-size: 17px;
+
+    position: absolute;
+    top: 85%;
+
+    text-decoration-line: underline;
+
+    cursor: pointer;
+}

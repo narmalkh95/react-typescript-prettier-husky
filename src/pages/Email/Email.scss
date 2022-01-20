@@ -1,0 +1,41 @@
+.email__page__image {
+    height: 57%;
+    width: 50%;
+    position: absolute;
+    top: 23%;
+}
+
+.mail__content__wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mail__content__subwrapper {
+    position: absolute;
+    top: 25%;
+    height: 40%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        font-family: Comfortaa;
+        font-size: 17px;
+        margin-bottom: 15px;
+        line-height: 22px;
+    }
+}
+
+.resend__button {
+    font-family: Comfortaa;
+    font-size: 17px;
+
+    position: absolute;
+    top: 67%;
+
+    text-decoration-line: underline;
+
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+.payment-card-container {
+    width: 616px;
+    height: 255px;
+
+    border: 1px solid #257aaf;
+    box-sizing: border-box;
+}
+
+.payment-cards,
+.payment-heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.payment-image-container > img {
+    width: 40px;
+    height: 40px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.payment-input-container {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+}
+
+.card-number-lable,
+.card-number-min-lable {
+    height: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 286% */
+
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    color: #000000;
+}
+
+.card-number-min-lable:nth-child(1) {
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.card-number-lable {
+    width: 550px;
+}
+
+.card-number-min-lable {
+    width: 160px;
+}
+
+.payment-input-group {
+    width: 616px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+// .payment-input-group input{
+//     width: 200px;
+// }
+
+.card-number,
+.card-min-number {
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: 0.3s border-color;
+
+    padding: 5px;
+
+    outline: none;
+}
+
+.card-number {
+    width: 550px;
+    height: 30px;
+}
+
+.card-min-number {
+    width: 160px;
+    height: 30px;
+}
+
+.card-min-number:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-number:hover,
+.card-min-number:hover {
+    border: 1px solid #aaa;
+}
+
+.payment-container > button {
+    width: 162px;
+    height: 33px;
+
+    color: white;
+    background: #257aaf;
+    border: 1px solid #257aaf;
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    margin-top: 182px;
+}

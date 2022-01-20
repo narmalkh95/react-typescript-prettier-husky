@@ -1,0 +1,101 @@
+.header {
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manot-logo-button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.manot-logo {
+    position: absolute;
+    top: 0.1%;
+
+    width: 58px;
+    height: 61px;
+    margin-top: 18px;
+    margin-left: 28px;
+}
+
+.user__menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+
+    position: absolute;
+    top: 4%;
+    right: 3%;
+
+    cursor: pointer;
+}
+
+////////////////// custom menu
+
+.custum__menu__wrapper {
+    background-color: black;
+}
+
+.user__close__btn {
+    position: absolute;
+    top: 2%;
+    left: 81%;
+
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.menu__items__wrapper {
+    position: absolute;
+    top: 9%;
+    width: 20%;
+
+    font-family: Comfortaa;
+    font-size: 21px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__items__wrapper div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu__items__wrapper {
+    div:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 13px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #d235a8;
+}

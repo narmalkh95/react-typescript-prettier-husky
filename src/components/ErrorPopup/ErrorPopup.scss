@@ -1,0 +1,39 @@
+.err_header {
+    text-align: center;
+}
+
+.dialog_action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+
+    margin: auto;
+    margin-top: 40px;
+
+    .continue-button,
+    .choose-button {
+        width: 162px;
+        height: 33px;
+
+        box-sizing: border-box;
+        border-radius: 13px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #ffffff;
+
+        mix-blend-mode: normal;
+
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}

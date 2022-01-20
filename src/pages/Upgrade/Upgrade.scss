@@ -1,0 +1,29 @@
+.updrade_card_container {
+    height: 100vh;
+}
+
+.most_popular_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.most_popular_div {
+    height: 54px;
+    width: 276px;
+
+    background-color: #3EA9E3;
+
+    border-radius: 4px;
+
+    color: white;
+    font-size: 18px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upgrade_container {
+    display: flex;
+    justify-content: center;
+}

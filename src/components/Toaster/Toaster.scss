@@ -1,0 +1,50 @@
+.toast-info-container {
+  .Toastify__toast-body {
+    padding: 0 !important;
+  }
+
+  border-radius: 13px !important;
+  width: 312px;
+  height: 71px;
+}
+
+.toast-info-container__info {
+    background: #C42DA7 !important;
+}
+
+.toast-info-container__success {
+    background: #177418 !important;
+}
+
+.toast-info-container__failure {
+    background: #CC0033 !important;
+}
+
+.toast-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.toast-icon {
+  width: 2em;
+  margin-left: 5px;
+}
+
+.toast-icon-success {
+  width: 2.6em;
+  margin-left: 5px;
+}
+
+.toast-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toast-text {
+  margin-left: 20px;
+  margin-right: 30px;
+  font-size: 12px;
+  color: #FFFFFF;
+  line-height: 20px;
+}

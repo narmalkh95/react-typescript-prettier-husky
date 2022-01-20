@@ -1,0 +1,89 @@
+.contactUs_container {
+    height: 100vh;
+}
+
+.contactUs__wrapper {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .message {
+        text-align: center;
+    }
+
+    .success {
+        color: #177418;
+    }
+
+    .error {
+        color: red;
+    }
+}
+
+.show__menu {
+    width: 80%;
+}
+
+.hide__menu {
+    width: 100%;
+}
+
+.contactUs__heading {
+    position: absolute;
+    top: 3.5em;
+    font-family: Comfortaa;
+    font-size: 36px;
+    letter-spacing: -0.05em;
+}
+
+.contactUs__wrapper {
+    input {
+        font-family: Comfortaa;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    legend {
+        font-size: 0.85em;
+    }
+}
+
+.contactUs__wrapper label {
+    font-family: Comfortaa;
+}
+
+.contactUs__wrapper fieldset {
+    border-radius: 11px;
+}
+
+.save__button__wrapper {
+    padding-top: 1em;
+    top: 45em;
+
+    .button__component {
+        width: 180px;
+    }
+}
+
+.cancel__button {
+    padding-top: 2em;
+    top: 47em;
+}
+
+@media only screen and (max-height: 760px) {
+    .contactUs__heading {
+        top: 1em;
+    }
+    .save__button__wrapper {
+        top: 35em;
+    }
+
+    .cancel__button {
+        top: 36.5em;
+    }
+}

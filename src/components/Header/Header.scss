@@ -1,0 +1,36 @@
+.header1 {
+    width: 50%;
+    height: 60px;
+    position: relative;
+
+    
+}
+
+// .manot-logo-button {
+//     height: 100%;
+
+//     display: flex;
+//     align-items: flex-end;
+//     justify-content: center;
+
+// }
+
+.manot-logo {
+    position: absolute;
+    top: 0.1%;
+    
+    width: 58px;
+    height: 61px;
+    margin-top: 18px;
+    margin-left: 28px;
+}
+
+.button-container {
+    position: absolute;
+    left: 85.47%;
+    top: 5.5%;
+}
+
+.button-container button {
+    border-radius: 30px;
+}
