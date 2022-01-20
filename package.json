@@ -58,10 +58,10 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --quiet --fix"
+      "eslint --exit-on-fatal-error"
     ],
     "*.{json,md,html}": [
-      "prettier --write"
+      "prettier"
     ]
   },
   "engines": {
