@@ -38,7 +38,20 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    'prettier/prettier': 'error',
+    "prettier/prettier": [
+      "warn",
+      {
+        printWidth: 100,
+        tabWidth: 4,
+        singleQuote: true,
+        semi: true,
+        trailingComma: 'es5',
+        useTabs: false,
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "always"],
+        "computed-property-spacing": ["error", "always"]
+      }
+    ],
   },
   settings: {
     'import/resolver': {
